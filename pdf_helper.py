@@ -31,13 +31,13 @@ def chat_with_your_pdf(pdf_file,query) :
     chunks = pages
 
     # Get embedding model
-    embeddings = OpenAIEmbeddings(client=any)
+    embeddings = OpenAIEmbeddings()
 
     # Create vector database
     db = FAISS.from_documents(chunks, embeddings)
 
 
-    chain = load_qa_chain(OpenAI(temperature=0,client=any), chain_type="stuff")
+    chain = load_qa_chain(OpenAI(temperature=0), chain_type="stuff")
 
     query = str(query)
     docs = db.similarity_search(query)
