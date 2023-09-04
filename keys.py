@@ -1,0 +1,2 @@
+openai_API='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'
+Telegeam_bot_key='6442854592:AAEjS7VXihmOim9fA2ccF7RoctaLLcyvdrU'
