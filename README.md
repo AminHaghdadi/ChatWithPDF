@@ -19,11 +19,15 @@ To deploy this project run
 ```bash
   git clone https://github.com/AminHaghdadi/ChatWithPDF.git
 ```
-2:
+2: install requirements:
+```bash
+  pip install requirement.txt 
+```
+3:
 
 Enter your OpenAI API in keys.py 
 
-3: Run in Terminal
+4: Run in Terminal
 ```bash
 streamlit run main.py
 ```
