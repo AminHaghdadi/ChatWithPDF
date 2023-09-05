@@ -1,0 +1,6 @@
+langchain
+openai
+faiss
+PyPDFLoader
+streamlit
+gtts
