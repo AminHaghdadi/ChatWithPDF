@@ -21,7 +21,7 @@ To deploy this project run
 ```
 2: install requirements:
 ```bash
-  pip install requirement.txt 
+  pip install -r requirement.txt 
 ```
 3:
 
